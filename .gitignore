@@ -12,3 +12,21 @@ yarn-debug.kog*
 yarn-error.log*
 
 .vscode
+client/.vscode
+client/node_modules
+client/.pnp
+.pnp.js
+
+# testing
+client/coverage
+
+# production
+client/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+

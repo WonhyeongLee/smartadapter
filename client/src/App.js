@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
+import TabState from './components/TabState';
 import socketio from 'socket.io-client';
 import './App.css';
 
@@ -16,6 +17,8 @@ function App() {
         <Navbar />
           <button onClick={onclick}>소켓 테스트 </button>
       </header>
+
+      <TabState />
 
     </div>
   );

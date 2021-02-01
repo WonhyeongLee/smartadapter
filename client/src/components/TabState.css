@@ -25,7 +25,6 @@
 .grid-tab2 {
     grid-area: 1 / 3 / 3 / 5;
     margin: 20px 10px;
-    padding: 10px;
     background-color: white;
     border: 2px solid black;
     text-align: center;
@@ -53,18 +52,17 @@
 }
 .tab-button-style {
     margin-top: 20px;
-    width: 300px;
+    position: absolute;
+    width: 280px;
     height: 100px;
+    transform: translateX(-45%);
 }
 .fa-power-off{
     color: green;
 }
 .tab-box{
-    display: flex;
-    position: absolute;
-    align-content: center;
     justify-content: center;
-    width: 332px;
+    align-items: center;
     height: 240px;
 }
 

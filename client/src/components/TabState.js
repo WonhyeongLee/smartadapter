@@ -27,9 +27,21 @@ function TabState() {
                         <button className="fas fa-power-off fa-5x tab-button-style"></button> 
                     </div>
                 </div>
-	            <div class="grid-tab2"> 2 </div>
-	            <div class="grid-tab3"> 3 </div>
-	            <div class="grid-state-chart"> chart</div>
+	            <div class="grid-tab2"> 
+                    <div className="tab-box">
+                        <span className="tab-style">TAB2</span><br></br>
+                        <button className="fas fa-power-off fa-5x tab-button-style"></button> 
+                    </div>
+                </div>
+               <div className="grid-tab3">
+                    <div className="tab-box">
+                        <span className="tab-style">TAB3</span><br></br>
+                        <button className="fas fa-power-off fa-5x tab-button-style"></button> 
+                    </div>
+               </div>
+               <div className="grid-state-chart">
+                    ----chart----
+               </div>
             </div>
         )
     }

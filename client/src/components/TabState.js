@@ -21,23 +21,32 @@ function TabState() {
 
         return(
             <div class="container">
-	            <div class="grid-tab1"> 
-                    <div className="tab-box">
-                        <span className="tab-style">TAB1</span><br></br>
-                        <button className="fas fa-power-off fa-5x tab-button-style"></button> 
-                    </div>
+	            <div class="grid-tab1 grid-size"> 
+                <span className="tab-style">TAB1</span><br></br>
+                <div class="tab-switch">
+                        <input type="checkbox"/>
+                        <label><i class="fas fa-power-off"></i></label>
+                    </div> 
                 </div>
-	            <div class="grid-tab2"> 
-                    <div className="tab-box">
-                        <span className="tab-style">TAB2</span><br></br>
-                        <button className="fas fa-power-off fa-5x tab-button-style"></button> 
-                    </div>
+	            <div class="grid-tab2 grid-size"> 
+                <span className="tab-style">TAB2</span><br></br>
+                <div class="tab-switch">
+                        <input type="checkbox"/>
+                        <label><i class="fas fa-power-off"></i></label>
+                    </div> 
                 </div>
-               <div className="grid-tab3">
-                    <div className="tab-box">
+               <div className="grid-tab3 grid-size">
+                    {/* <div className="tab-box">
                         <span className="tab-style">TAB3</span><br></br>
                         <button className="fas fa-power-off fa-5x tab-button-style"></button> 
-                    </div>
+                    </div> */}
+                    <span className="tab-style">TAB3</span><br></br>
+                    <div class="tab-switch">
+                        <input type="checkbox"/>
+                        <label><i class="fas fa-power-off"></i></label>
+                    </div> 
+                    
+
                </div>
                <div className="grid-state-chart">
                     ----chart----

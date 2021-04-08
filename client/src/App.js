@@ -1,26 +1,23 @@
 import React from 'react';
 import Navbar from './components/Navbar/Navbar';
 import TabState from './components/TabState';
-import socketio from 'socket.io-client';
+import { TabStateProvider } from './components/TabStateProvider';
 import './App.css';
 
-const socket = socketio.connect('localhost:3002');
-
-const onclick = () => {
-  const str = "test";
-  socket.emit("login" , str);
-}
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <Navbar />
-          <button onClick={onclick}>소켓 테스트 </button>
-      </header>
-
-      <TabState />
-
-    </div>
+    <TabStateProvider>
+      <div className="App">
+          <header className="App-header">
+          
+            <Navbar />
+            <button onClick={onclick}>State 변경 테스트  </button>
+          </header>
+  
+        <TabState />
+      </div>
+    </TabStateProvider>
   );
 }
 

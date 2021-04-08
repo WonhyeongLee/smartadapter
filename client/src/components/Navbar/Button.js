@@ -27,6 +27,5 @@ export const Button = ({
             {children}
         </button>
     )
-
-
+    
 }

@@ -1,31 +1,26 @@
 export const MenuItems = [
     {
-        title: 'Home',
+        title: '홈',
         url: '#',
         cName: 'nav-links',
     },
     {
-        title: 'First',
+        title: '전체현황',
         url: '#',
         cName: 'nav-links',
     },
     {
-        title: 'Two',
+        title: '기타1',
         url: '#',
         cName: 'nav-links',
     },
     {
-        title: 'Thrid',
+        title: '기타2',
         url: '#',
         cName: 'nav-links',
     },
     {
-        title: 'Fourth',
-        url: '#',
-        cName: 'nav-links',
-    },
-    {
-        title: 'Sign up',
+        title: '로그인',
         url: '#',
         cName: 'nav-links-mobile'
     }
